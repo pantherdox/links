@@ -5,7 +5,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    background-color: aliceblue;
+    background-color: rgb(48, 48, 48);
+    color: white;
 }
 
 h1{
@@ -29,7 +30,6 @@ a{
 
 .nav-bar{
     justify-content: space-between;
-    background-color: aliceblue;
 }
 
 .logo{
@@ -49,15 +49,13 @@ a{
 }
 
 .hover-links{
-    color: black;
+    color: white;
+    transition: 0.3s ease-in-out;
 }
 
 .hover-links:hover{
-    border: 1px solid black;
-    border-radius: 8px;
-    padding-block: 3px;
-    padding-left: 3px;
-    padding-right: 3px;
+    color: 1px solid rgb(231, 185, 185);
+    font-size: 1.2rem;
 }
 
 .about{
@@ -98,6 +96,7 @@ a{
     font-size: 1.6rem;
     color: white;
     text-shadow: 2px 2px black;
+    transition: 0.3s ease-out;
 }
 .box:nth-child(2){
     background: linear-gradient(rgba(0, 0, 0, 0.253), rgb(0,0,0,0.9)), url(3.png);
@@ -121,7 +120,7 @@ a{
 
 .box:hover{
     font-size: 2rem;
-    transition: 0.3s ease-out;
+    
 }
 
 .contact{
@@ -133,28 +132,26 @@ a{
 
 .button{
     height: 50px;
-    width: 60%;
+    width: 50%;
     border-radius: 6px;
     background-color: rgb(60, 139, 243);
     color: white;
     text-align: center;
     padding-block: 12px;
+    transition: 0.3s ease-out;
     
 }
 
 .button:hover{
-    box-shadow: 4px 4px 4px black;
-    width: 70%;
-    height: 70px;
-    padding-block: 23px;
+    box-shadow: 2px 2px 2px black;
+    width: 60%;
+    height: 60px;
+    padding-block: 18px;
+    font-size: 1.2rem;
 }
 
 footer{
     text-align: center;
-}
-
-footer p{
-    background-color: rgb(167, 207, 241);
 }
 
 .contactme{
